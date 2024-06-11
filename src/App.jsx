@@ -6,7 +6,7 @@ import Inicio from './pages/Inicio'
 
 const App = () => {
 
-  const [color] = useState("#eb8d04")
+  const [color] = useState("#1b85CC")
   document.body.style.backgroundColor = color
 
   return (
@@ -17,4 +17,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App // pega e usa a função inicial, no caso é App
